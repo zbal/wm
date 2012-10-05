@@ -1,0 +1,23 @@
+# Do not save hidden and temporary files 
+.*
+*~
+
+# Keep track of git related config files
+!.gitignore
+!.gitmodules
+
+# Do not save NPM dependencies but bones' and wms'
+/node_modules/*
+!/node_modules/bones
+!/node_modules/wm-*
+
+# Do not save the stash and various config files
+conf/*
+files/*
+logs/*
+
+# Do not save the Maxmind GeoIP DB
+GeoLiteCity.dat
+
+# Don't bother with the sandbox
+sandbox/*

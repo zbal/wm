@@ -1,0 +1,39 @@
+{
+  "author": "Vincent Viallet <vincent@wiredcraft.com> (http://wiredcraft.com)",
+  "name": "webmonit",
+  "description": "Web monit - a distributed web monitoring",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zbal/webmonit.git"
+  },
+  "engines": {
+    "node": "~0.8.0"
+  },
+  "dependencies": {
+      "bones-document": "~2.0",
+      "bones-page": "~0.0.1",
+      
+      "underscore": "~1.3.3",
+      "express": "~2.5.4",
+      "backbone": "~0.9.2",
+      "jquery": "~1.6.3",
+      "optimist": "0.3.x",
+      "mirror": "0.3.x",
+      
+      "backbone-stash": "git://github.com/Wiredcraft/backbone-stash.git#ab0215643",
+      
+      "supervisor": "git://github.com/kuno/node-supervisor.git",
+      "geoip": "~0.4.6"
+  },
+  "devDependencies": {
+      "bones-test": "~0.0.3",
+      "mocha": "1.x",
+      "should": "1.x"
+  },
+  "scripts": {
+      "test": "make test",
+      "start": "node index.js",
+      "watch": "./node_modules/.bin/supervisor -- ./index.js"
+  }
+}
