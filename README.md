@@ -4,8 +4,8 @@ Long things short - you're on the wrong git branch if you want to work on the re
 
 Run either of the following:
 
-- ```git checkout -b server```; if you want to work on the server part
-- ```git checkout -b webnode_py```; if you want to work on the client part
+- ```git checkout -t origin/server```; if you want to work on the server part
+- ```git checkout -t origin/webnode_py```; if you want to work on the client part
 
 ## Overview
 
