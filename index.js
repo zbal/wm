@@ -8,6 +8,7 @@ require('wm-check');
 require('wm-node');
 require('wm-record');
 require('wm-schedule');
+require('wm-report');
 
 Bones.load(__dirname);
 
