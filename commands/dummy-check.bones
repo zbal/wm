@@ -18,7 +18,8 @@ command.prototype.initialize = function(plugin) {
                 continent_code: 'NA',
                 country_code: 'US'
             }
-        ]
+        ],
+        node_count: 10
     }, {
         success: function(_model, res) {
             console.log('success');

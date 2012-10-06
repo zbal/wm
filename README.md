@@ -36,8 +36,7 @@ Provide a fully distributed monitoring with a control over a cluster of nodes, p
 1. __wm-node__; web node model; used to keep track of all web nodes used for the monitoring
 1. __wm-record__; web record model; used to store the results of each web checks
 1. __wm-schedule__; scheduler; used to build nodes vs. checks schedules
-1. __wm-__;
-1. __wm-__;
+1. __wm-report__; reported; used to aggregate results
 
 ## Web nodes
 
